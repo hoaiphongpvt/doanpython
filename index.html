@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Downloader</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="./assets/img/logo.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Sen:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Nhúng jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./assets/js/style.js"></script>
+</head>
+<body>
+    
+        <header class="header fixed">
+            <div class="main-content">
+                <div class="body">
+                    <a href="#home"><img src="./assets/img/Logo_YTB.png" alt="Lesson" class="logo"></a>
+
+                    <nav class="nav">
+                        <ul>
+                            <li class="active">
+                                <a href="#home" class="scroll">Trang chủ</a>
+                            </li>
+                            <li>
+                                <a href="#intro" class="scroll">Giới thiệu</a>
+                            </li>
+                            <li>
+                                <a href="#guide" class="scroll">Hướng dẫn</a>
+                            </li>
+                            <li>
+                                <a href="#member" class="scroll">Thành viên</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <div class="action">
+                        <a href="./resource/YoutubeDownloader.exe" download class="btn signup-btn">Download</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+
+            <div class="hero" id="home">
+                <div class="main-content">
+                    <div class="hero-body">
+                        <div class="media-block">
+                            <img src="./assets/img/img-hero.png" 
+                                alt="Learn without limits and spread knowledge."
+                                class="img"
+                            >
+        
+                            <!-- <div class="hero-summary">
+                                <div class="item">
+                                    <div class="icon">
+                                        <img src="./assets/img/Orion_page.svg" alt=">UI/UX Design">
+                                    </div>
+                                    <div class="info">
+                                        <p class="lable">20 Courses</p>
+                                        <p class="title">UI/UX Design</p>
+                                    </div>
+                                </div>
+        
+                                <div class="item">
+                                    <div class="icon">
+                                        <img src="./assets/img/Orion_code-window.svg" alt=">Development">
+                                    </div>
+                                    <div class="info">
+                                        <p class="lable">20 Courses</p>
+                                        <p class="title">Development</p>
+                                    </div>
+                                </div>
+        
+                                <div class="item">
+                                    <div class="icon">
+                                        <img src="./assets/img/Orion_megaphone.svg" alt=">Marketing">
+                                    </div>
+                                    <div class="info">
+                                        <p class="lable">30 Courses</p>
+                                        <p class="title">Marketing</p>
+                                    </div>
+                                </div>
+                            </div> -->
+                        </div>
+        
+                        <div class="content-block">
+                            <h1 class="heading">Phần mềm tải và chuyển đổi video từ Youtube.</h1>
+                            <p class="desc">Phần mềm được phát triển từ ngôn ngữ lập trình Python, giúp hỗ trợ người dùng tải video bất kỳ trên YouTube đến máy của mình.</p>
+                            <div class="cta-group">
+                                <a href="/resource/YoutubeDownloader.exe" class="btn hero-cta">Download</a>
+                                <!-- <button class="watch-video">
+                                    <div class="icon">
+                                        <img src="./assets/img/play.svg" alt="Play video">
+                                    </div>
+                                    <span>Watch Video</span>
+                                </button> -->
+                            </div>
+                            <!-- <p class="desc">Recent engagement</p>
+                            <p class="desc stats">
+                                <strong>50K</strong> Students
+                                <strong>70+</strong> Courses
+                            </p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="popular" id="intro">
+                <div class="main-content">
+                    <div class="popular-top">
+                        <div class="info">
+                            <h2 class="heading">Giới thiệu</h2>
+                            <p class="desc">Với phần mềm này, người dùng có thể chọn thư mục để lưu video tải về, lựa chọn độ phân giải tải về. Ngoài tải về video dưới dạng mp4 ra, phần mềm còn có thể tải về phiên bản chuyển đổi với các file có đuôi mp3, avi...</p>
+                        </div>
+                    </div>
+
+                    <div class="courses-list">
+                        <div class="courses-item">
+                            <a href="#!">
+                                <img src="./assets/img/anhtaixuong.jpg" alt="Ảnh phần mềm" class="thumb">
+                            </a>
+                            <div class="info">
+                                <div class="head">
+                                    <h3 class="title"><a href="#!" class="line-clamp">Giao diện chức năng tải xuống video</a></h3>
+                                </div>
+                                <p class="desc">Với chức năng này, bạn có thể tải xuống video từ YouTube với các lựa chọn như thư mục lưu trữ, độ phân giải và có thể chuyển đổi định dạng sang mp3, avi,...</p>
+                            </div>
+                        </div>
+
+                        <div class="courses-item">
+                            <a href="#!">
+                                <img src="./assets/img/anhdoidinhdang.jpg" alt="UI/UX Design" class="thumb">
+                            </a>
+                            <div class="info">
+                                <div class="head">
+                                    <h3 class="title"><a href="#!" class="line-clamp">Giao diện chức năng đổi định dạng</a></h3>
+                                </div>
+                                <p class="desc">Với chức năng này, bạn có thể lựa chọn tệp có sẵn trên máy để chuyển đổi sang các dạng khác như mp3, avi,...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="features" id="guide">
+                <div class="main-content">
+                    <div class="popular-top">
+                        <div class="info">
+                            <h2 class="heading">Hướng dẫn cài đặt và sử dụng</h2>
+                    </div>
+                    <div class="body">
+                        <div class="images">
+                            <img src="./assets/img/huongdantaixuong1.jpg" alt="" class="img lower">
+                            <img src="./assets/img/huongdantaixuong2.jpg" alt="" class="img">
+                        </div>
+                        <div class="content">
+                            <h2 class="heading">Bước 1: Bấm nút Download trên website để tải xuống tập tin thực thi. (Ảnh 1)</h2>
+                            <!-- <p class="desc">87% of people learning for professional development report career benefits like getting a promotion, a raise, or starting a new career.</p> -->
+                            <h2 class="heading">Bước 2: Sau khi tải xuống tập tin thực thi, chạy tệp đó để khởi chạy phần mềm. (Ảnh 2)</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="features feature-2nd">
+                <div class="main-content">
+                    <div class="body">
+                        <div class="images">
+                            <img src="./assets/img/taixuongjpg.jpg" alt="" class="img">
+                        </div>
+                        <div class="content">
+                            <h2 class="heading">Hướng dẫn tải xuống video</h2>
+                            <p class="desc">Bước 1: Dán đường dẫn video từ Youtube.</p>
+                            <p class="desc">Bước 2: Lựa chọn thư mục lưu.</p>
+                            <p class="desc">Bước 3: Lựa chọn độ phân giải.</p>
+                            <p class="desc">Bước 4: Nhấn nút "Tải xuống" để bắt đầu tải.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="features feature-3nd">
+                <div class="main-content">
+                    <div class="body">
+                        <div class="images">
+                            <img src="./assets/img/chuyendoi.jpg" alt="" class="img">
+                        </div>
+                        <div class="content">
+                            <h2 class="heading">Hướng dẫn chuyển đổi định dạng</h2>
+                            <p class="desc">Bước 1: Chọn tập tin cần chuyển đổi.</p>
+                            <p class="desc">Bước 2: Chọn thư mục lưu.</p>
+                            <p class="desc">Bước 3: Chọn định dạng cần chuyển đổi.</p>
+                            <p class="desc">Bước 4: Nhấn nút "Tải xuống" để bắt đầu chuyển đổi.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="blogs" id="member">
+                <div class="main-content">
+                    <div class="blog-top">
+                        <h2 class="heading">Thành viên</h2>
+                        <p class="desc"></p>
+                    </div>
+
+                    <div class="blog-list">
+                        <div class="blog-item">
+                            <a href="https://www.facebook.com/fonghoai03/">
+                                <img src="./assets/img/tv11.jpg" alt="How to become a pro web designer in 2022 and get remot job?" class="thumb">
+                            </a>
+                        <div class="info">
+                                <div class="date">21-03-2002</div>
+                                <h3 class="title">
+                                    <a href="#!">Nguyễn Hoài Phong</a>
+                                </h3>
+                                <p class="address">Long An</p>
+                                <p class="phone_number">085 555 9851</p>
+                                <a href="https://www.facebook.com/fonghoai03/" class="btn">Liên hệ</a>
+                        </div>
+                        </div>
+
+                        <div class="blog-item">
+                            <a href="https://www.facebook.com/chanphong.giang.73">
+                                <img src="./assets/img/tv2.jpg" alt="How to become a pro web designer in 2022 and get remot job?" class="thumb">
+                            </a>
+                            <div class="info">
+                                <span class="date">06-03-2002</span>
+                                <h3 class="title">
+                                    <a href="#!">Giang Chấn Phong</a>
+                                </h3>
+                                <p class="address">TP.Hồ Chí Minh</p>
+                                <p class="phone_number">090 821 1911</p>
+                                <a href="https://www.facebook.com/chanphong.giang.73" class="btn">Liên hệ</a>
+                            </div>
+                        </div>
+
+                        <div class="blog-item">
+                            <a href="https://www.facebook.com/anhpha.2201">
+                                <img src="./assets/img/tv3.jpg" alt="How to become a pro web designer in 2022 and get remot job?" class="thumb">
+                            </a>
+                            <div class="info">
+                                <span class="date">22-01-2002</span>
+                                <h3 class="title">
+                                    <a href="#!">Nguyễn Võ Anh Pha</a>
+                                </h3>
+                                <p class="address">Bến Tre</p>
+                                <p class="phone_number">039 482 5518</p>
+                                <a href="https://www.facebook.com/anhpha.2201" class="btn">Liên hệ</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <footer class="footer">
+            <div class="main-content">
+                <div class="row">
+
+                    <!-- Column 1 -->
+                    <div class="column">
+                        <img src="./assets/img/Logo_YTB.png" alt="Lesson." class="logo">
+                        <p class="desc">Your best choice</p>
+                        <div class="socials">
+                            <a href="#!">
+                                <img src="./assets/img/twitter.svg" alt="twitter">
+                            </a>
+                            <a href="#!">
+                                <img src="./assets/img/f.svg" alt="facebook">
+                            </a>
+                            <a href="#!">
+                                <img src="./assets/img/linked_in.svg" alt="linked_in">
+                            </a>
+                            <a href="#!">
+                                <img src="./assets/img/instagram.svg" alt="instagram">
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Column 2 -->
+                    <div class="column">
+                        <h3 class="heading">Thông tin</h3>
+
+                        <ul class="list">
+                            <li>
+                                <a href="#!" class="link">About Us</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="link">Features</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="link">Our Pricing</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="link">Latest News</a>
+                            </li>
+                        </ul>
+                        
+                    </div>
+
+                    <!-- Column 3 -->
+                    <div class="column">
+                        <h3 class="heading">Hỗ trợ</h3>
+
+                        <ul class="list">
+                            <li>
+                                <a href="#!" class="link">FAQ’s</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="link">Terms & Conditions</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="link">Privacy Policy</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="link">Contact Us</a>
+                            </li>
+                        </ul>
+                        
+                    </div>
+
+                    <!-- Column 4 -->
+                    <div class="column">
+                        <h3 class="heading">Liên hệ</h3>
+
+                        <ul class="list">
+                            <li>
+                                <a href="#!" class="link"><strong>Location: </strong>273 An Dương Vương – Phường 3 – Quận 5</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="link"><strong>Email:</strong> daihocsaigon@sgu.edu.vn</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="link"><strong>Phone:</strong> (84-28) 38.354409 - 38.352309</a>
+                            </li>
+                        </ul>
+                        
+                    </div>
+                </div>
+
+                <div class="copyright">
+                    <p>Copyright ©2023 All rights reserved</p>
+                </div> 
+            </div>
+        </footer>
+    
+</body>
+</html>
